@@ -1,0 +1,108 @@
+body{
+  background-color: #F7F9FC;
+ font-family: 'Open Sans', sans-serif;
+ font-family: 'Arvo', serif;
+ font-weight: lighter;
+ color: #374045;
+ line-height: 1.5em;
+ font-size: 17px
+
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: #f5f4f4;
+  padding: 20px 10px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 20px;
+  text-align:center;
+  margin: 20px 0px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+
+img.img-circle {
+  width: 100px;
+}
+
+#introduction {
+  margin-bottom: 30px;
+}
+
+.btn-grey {
+  background-color:#374045;
+  color: white;
+  padding:  8px 10px;
+  border-radius: 2px;
+  border-radius: 4px;
+}
+
+.card > a:hover {
+
+  background-color: #c1a1d3;
+  color: grey;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px
+}
+.list-inline > i{
+  color:#c1a1d3;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+/*.header {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color:#30475e;
+}
+
+.header > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.content {
+  font-family: 'Open Sans', sans-serif;
+}
+.content > a {
+  color: #30475e;
+}
+
+a:hover {
+  color: #f05454;
+}
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+}
+*/
